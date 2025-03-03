@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* CSS Animasi muncul saat scroll */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.anime-card {
+  animation: fadeIn 0.6s ease-out forwards;
+  opacity: 0; /* Set initial opacity to 0 */
+}
+
+/* Memastikan card muncul satu per satu */
+.anime-card:nth-child(1) {
+  animation-delay: 0ms;
+}
+
+.anime-card:nth-child(2) {
+  animation-delay: 100ms;
+}
+
+.anime-card:nth-child(3) {
+  animation-delay: 200ms;
+}
+
+.anime-card:nth-child(4) {
+  animation-delay: 300ms;
+}
+
+/* Menambahkan kategori di atas gambar anime */
+.anime-card .absolute {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparan hitam */
+  color: white;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 0.25rem;
+  z-index: 1; /* Agar kategori muncul di atas gambar */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  100% {
+    transform: rotateY(360deg) rotateX(360deg);
+  }
+}
+
+.animate-rotate {
+  animation: rotate 8s linear infinite;
+}
+
+/* Efek Hover untuk Card Developer */
+.hover\:shadow-green-500\/50:hover {
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.5);
+}
+
+/* Efek Hover Glow */
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}
+/* Ikon Teknologi Modern */
+.tech-icon {
+  transition: transform 0.3s ease-in-out, filter 0.3s;
+}
+
+.tech-icon:hover {
+  transform: scale(1.3);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+}

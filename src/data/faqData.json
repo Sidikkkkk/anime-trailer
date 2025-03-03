@@ -1,0 +1,41 @@
+[
+  {
+    "category": "Umum",
+    "questions": [
+      {
+        "question": "Apa itu AnimeStream?",
+        "answer": "AnimeStream adalah platform streaming anime dengan berbagai fitur menarik untuk pengalaman menonton yang lebih baik."
+      },
+      {
+        "question": "Apakah layanan ini gratis?",
+        "answer": "Ya, layanan ini gratis. Namun, ada opsi membership untuk fitur tambahan."
+      }
+    ]
+  },
+  {
+    "category": "Akun & Keamanan",
+    "questions": [
+      {
+        "question": "Bagaimana cara mendaftar?",
+        "answer": "Klik tombol 'Daftar', masukkan email dan password, lalu ikuti petunjuk verifikasi."
+      },
+      {
+        "question": "Bagaimana jika saya lupa password?",
+        "answer": "Gunakan fitur 'Lupa Password' pada halaman login untuk mereset kata sandi Anda."
+      }
+    ]
+  },
+  {
+    "category": "Streaming & Kualitas",
+    "questions": [
+      {
+        "question": "Bagaimana cara meningkatkan kualitas streaming?",
+        "answer": "Pastikan koneksi internet Anda stabil dan pilih resolusi yang lebih tinggi di pemutar video."
+      },
+      {
+        "question": "Kenapa anime tidak bisa diputar?",
+        "answer": "Pastikan server tidak mengalami gangguan dan coba refresh halaman."
+      }
+    ]
+  }
+]
