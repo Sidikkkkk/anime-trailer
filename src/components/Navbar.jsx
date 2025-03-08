@@ -24,7 +24,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-green-400">AnimTrail</h1>
+        <h1 className="text-2xl font-bold text-green-400">AnimTrailer</h1>
 
         {/* Ikon User & Menu Mobile */}
         <div className="flex items-center gap-6 relative">
